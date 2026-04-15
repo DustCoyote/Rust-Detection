@@ -7,3 +7,5 @@ best_unet_rust.pth
 __pycache__/
 *.pyc
 rust_masks/
+test_inference_outputs/
+verification_outputs/
