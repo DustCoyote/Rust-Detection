@@ -1,0 +1,9 @@
+ECCV_TransFusion/
+best_unet_rust.pth
+*.pth
+*.zip
+*Zone.Identifier
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+rust_masks/
