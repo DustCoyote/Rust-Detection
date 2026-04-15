@@ -9,10 +9,6 @@ This repository contains a Python training script and data for a rust segmentati
 - `dataset/content/dataset/masks`: segmentation masks.
 - `test/`: sample test images.
 
-## Notes
-
-- `best_unet_rust.pth` is intentionally excluded from version control because it is a large trained weight file.
-- `ECCV_TransFusion/` is intentionally excluded because it was added here by mistake and is not part of this project.
 
 ## Quick Start
 
