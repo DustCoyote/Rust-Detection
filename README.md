@@ -1,11 +1,10 @@
 # RUST Segmentation Project
 
-This repository contains notebooks and data for a rust segmentation project based on a U-Net workflow.
+This repository contains a Python training script and data for a rust segmentation project based on a U-Net workflow.
 
 ## Project Structure
 
-- `Untitled-1.ipynb`: main training and inference notebook for rust segmentation.
-- `rust.ipynb`: earlier experiment notebook.
+- `train_rust_segmentation_unet.py`: main training, validation, and test-image inference script.
 - `dataset/content/dataset/images`: input images.
 - `dataset/content/dataset/masks`: segmentation masks.
 - `test/`: sample test images.
@@ -17,6 +16,5 @@ This repository contains notebooks and data for a rust segmentation project base
 
 ## Quick Start
 
-1. Open `Untitled-1.ipynb`.
-2. Make sure PyTorch, torchvision, Pillow, OpenCV, matplotlib, and numpy are installed.
-3. Run the notebook cells from top to bottom.
+1. Make sure PyTorch, torchvision, Pillow, matplotlib, and numpy are installed.
+2. Run `python train_rust_segmentation_unet.py --mode all`.
